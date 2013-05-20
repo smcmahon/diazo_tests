@@ -7,4 +7,9 @@
 
     <replace css:theme-children="head title" css:content-children="head title" />
 
+    <replace css:theme="#theme1" css:content="#content1" />
+    <drop css:content="#content1a" />
+
+    <replace css:theme="#theme2" css:content="#content1a" mode="raw" />
+
 </rules>
